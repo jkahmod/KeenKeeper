@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+a.active {
+  background-color: #244d3f;
+  color: rgb(255, 255, 255);
+  
+}
+
+a.pending {
+  animate: pulse 1s infinite;
+}
+
+a.transitioning {
+  /* css transition is running */
+}

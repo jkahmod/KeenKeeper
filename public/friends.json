@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Michael Carter",
+    "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80",
+    "email": "michael.carter@gmail.com",
+    "days_since_contact": "18d ago",
+    "status": "overdue",
+    "tags": ["work"],
+    "bio": "Worked together in a tech company in California. Great problem solver.",
+    "goal": 14,
+    "next_due_date": "2026-04-01"
+  },
+  {
+    "id": 2,
+    "name": "Emma Wilson",
+    "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80",
+    "email": "emma.wilson@gmail.com",
+    "days_since_contact": "10d ago",
+    "status": "almost due",
+    "tags": ["family"],
+    "bio": "Cousin from New York. We stay connected through calls.",
+    "goal": 14,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 3,
+    "name": "Daniel Smith",
+    "picture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=200&q=80",
+    "email": "daniel.smith@gmail.com",
+    "days_since_contact": "5d ago",
+    "status": "on-track",
+    "tags": ["work"],
+    "bio": "Colleague and friend. We collaborate on development projects.",
+    "goal": 14,
+    "next_due_date": "2026-04-25"
+  },
+  {
+    "id": 4,
+    "name": "Sophia Brown",
+    "picture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80",
+    "email": "sophia.brown@gmail.com",
+    "days_since_contact": "21d ago",
+    "status": "overdue",
+    "tags": ["hobby", "travel"],
+    "bio": "Travel partner. We explore new places together.",
+    "goal": 14,
+    "next_due_date": "2026-03-30"
+  },
+  {
+    "id": 5,
+    "name": "James Anderson",
+    "picture": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?auto=format&fit=crop&w=200&q=80",
+    "email": "james.anderson@gmail.com",
+    "days_since_contact": "13d ago",
+    "status": "almost due",
+    "tags": ["work"],
+    "bio": "Freelance partner in web development projects.",
+    "goal": 14,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 6,
+    "name": "Olivia Martinez",
+    "picture": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=200&q=80",
+    "email": "olivia.martinez@gmail.com",
+    "days_since_contact": "3d ago",
+    "status": "on-track",
+    "tags": ["family"],
+    "bio": "Family member. We talk regularly and share updates.",
+    "goal": 10,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 7,
+    "name": "William Taylor",
+    "picture": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=200&q=80",
+    "email": "william.taylor@gmail.com",
+    "days_since_contact": "16d ago",
+    "status": "overdue",
+    "tags": ["mentor"],
+    "bio": "Mentor who helps guide my career decisions.",
+    "goal": 14,
+    "next_due_date": "2026-04-05"
+  },
+  {
+    "id": 8,
+    "name": "Ava Wilson",
+    "picture": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=200&q=80",
+    "email": "ava.wilson@gmail.com",
+    "days_since_contact": "8d ago",
+    "status": "on-track",
+    "tags": ["client"],
+    "bio": "Client from Los Angeles. Worked on a business website.",
+    "goal": 14,
+    "next_due_date": "2026-04-22"
+  },
+  {
+    "id": 9,
+    "name": "Christopher Moore",
+    "picture": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&w=200&q=80",
+    "email": "christopher.moore@gmail.com",
+    "days_since_contact": "12d ago",
+    "status": "almost due",
+    "tags": ["startup"],
+    "bio": "Startup partner. We discuss ideas and growth strategies.",
+    "goal": 14,
+    "next_due_date": "2026-04-17"
+  },
+  {
+    "id": 10,
+    "name": "Isabella Thomas",
+    "picture": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=200&q=80",
+    "email": "isabella.thomas@gmail.com",
+    "days_since_contact": "2d ago",
+    "status": "on-track",
+    "tags": ["creative"],
+    "bio": "Creative friend who loves photography and storytelling.",
+    "goal": 7,
+    "next_due_date": "2026-04-19"
+  }
+]
