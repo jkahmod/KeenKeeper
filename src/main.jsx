@@ -9,6 +9,8 @@ import Homepage from './Page/Homepage/Homepage';
 import Timeline from './Page/Timeline/Timeline';
 import Notfound from './Layouts/Notfound';
 import Stats from './Page/Stats/Stats';
+import FriendsDetails from './Page/FriendsDetails/FriendsDetails'; 
+// http://localhost:5173/;
 
 const router = createBrowserRouter([
   {
@@ -27,6 +29,12 @@ const router = createBrowserRouter([
       {
         path:"/stats",
         element:<Stats></Stats>
+      },
+      {
+        path:"/friendsDetails/:friendId",
+        element:<FriendsDetails></FriendsDetails>,
+        loader: ()=> fetch("/friends.json"),
+
       }
     ],
   },
@@ -35,6 +43,6 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider router = {router} />
   </StrictMode>,
 )
