@@ -5,6 +5,7 @@ import { MdOutlineTextsms } from "react-icons/md";
 import { FaVideo } from "react-icons/fa";
 
 const Timeline = () => {
+    
 
     const { activities } = useContext(ActivityContext);
     const [filter, setFilter] = useState("all");
