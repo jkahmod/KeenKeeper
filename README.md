@@ -1,16 +1,53 @@
-# React + Vite
+ **Project Name**
+## KeenKeeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+##  **Overview**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is designed to help users track and analyze their friendship activities such as text, calls, and video interactions. It provides a smooth user experience with a clean UI and responsive layout across all devices.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  **Live Preview**
 
-## Expanding the ESLint configuration
+ **Live Site:** [Click Here](https://keen-keeper-henna.vercel.app/)
+ **Repository:** [GitHub Link](https://github.com/jkahmod/KeenKeeper)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  **Tech Stack**
+
+*  **React.js** — Frontend Library
+*  **Tailwind CSS** — Styling
+*  **Recharts** — Data Visualization
+*  **React Router** — Routing
+*  **Vite** — Fast Development Build Tool
+
+---
+
+##  **Key Features**
+
+###  **Fully Responsive Design**
+
+* Mobile, tablet, desktop সব ডিভাইসে perfectly optimized
+* Clean and flexible layout system
+
+###  **Interactive Statistics Dashboard**
+
+* Pie chart দিয়ে interaction data visualize
+* Real-time feel UI experience
+
+###  **Dynamic Friends Details Page**
+
+* প্রতিটি friend-এর detailed information
+* Activity tracking (Text / Call / Video)
+
+---
+
+##  **Author**
+
+**👤 JK (Jakaria Ahmed)**
+ Frontend Developer (React & WordPress)
+
+---

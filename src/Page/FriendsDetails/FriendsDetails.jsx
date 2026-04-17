@@ -80,7 +80,7 @@ const FriendsDetails = () => {
                              <FaArchive /> Snooze 2 weeks
                         </button>
                         <button                         
-                            className='btn'
+                            className='btn text-red-500'
                         >
                              <MdDelete  /> Delete
                         </button>
