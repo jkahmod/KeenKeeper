@@ -30,7 +30,7 @@ const Stats = () => {
     );
 
     return (
-        <div className='w-[100%] lg:w-[1400px] mx-auto my-5 lg:my-20 space-y-10 overflow-hidden p-3 '>
+        <div className='w-[100%] lg:w-[1400px] mx-auto lg:my-20 space-y-10 overflow-hidden p-3 '>
             
             <div>
                 <h1 className='text-2xl lg:text-4xl  font-bold '>

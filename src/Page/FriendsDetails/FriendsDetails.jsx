@@ -1,9 +1,10 @@
 import React, { useContext } from 'react';
-import { FaVideo } from 'react-icons/fa';
+import { FaArchive, FaVideo } from 'react-icons/fa';
 import { IoCallOutline } from 'react-icons/io5';
-import { MdOutlineTextsms } from 'react-icons/md';
+import { MdDelete, MdOutlineTextsms } from 'react-icons/md';
 import { useLoaderData, useParams } from 'react-router';
 import { ActivityContext } from "../../Context/ActivityContext";
+import { RiNotificationSnoozeLine } from 'react-icons/ri';
 
 const FriendsDetails = () => {
 
@@ -30,10 +31,10 @@ const FriendsDetails = () => {
 
     return (
         <div>
-            <div className='w-full lg:w-[1400px]  my-20 mx-auto flex justify-between gap-10'>
+            <div className='grid lg:grid-cols-2 md:grid-cols-2 gap-3 mx-auto w-[100%] lg:w-[1400px] my-5 lg:my-10 p-3'>
 
                
-                <div className='w-full lg:w-[500px] text-center space-y-10'>
+                <div className='w-[100%] lg:w-[600px] text-center space-y-10'>
 
                     <div className='shadow-lg rounded p-3 space-y-5'>
                         <img
@@ -68,34 +69,29 @@ const FriendsDetails = () => {
                     
                     <div className='grid gap-3'>
 
-                        <button
-                            onClick={() => handleAddActivity(expectedFriend, "call")}
+                        <button                         
                             className='btn'
                         >
-                            <IoCallOutline /> Call
+                             <RiNotificationSnoozeLine /> Snooze 2 weeks
                         </button>
-
-                        <button
-                            onClick={() => handleAddActivity(expectedFriend, "text")}
+                        <button                         
                             className='btn'
                         >
-                            <MdOutlineTextsms /> Text
+                             <FaArchive /> Snooze 2 weeks
                         </button>
-
-                        <button
-                            onClick={() => handleAddActivity(expectedFriend, "video")}
+                        <button                         
                             className='btn'
                         >
-                            <FaVideo /> Video
+                             <MdDelete  /> Delete
                         </button>
 
                     </div>
                 </div>
 
                 
-                <div className='w-full lg:w-[900px] space-y-10'>
+                <div className='w-[100%] lg:w-[900px] space-y-10'>
 
-                    <div className='grid grid-cols-3 gap-5'>
+                    <div className='grid lg:grid-cols-3 gap-5'>
 
                         <div className='shadow-sm p-5 text-center'>
                             <p className='text-2xl font-bold text-green-900'>
@@ -142,7 +138,7 @@ const FriendsDetails = () => {
                             Quick Check-In
                         </h4>
 
-                        <div className='grid grid-cols-3 gap-5'>
+                        <div className='grid lg:grid-cols-3 gap-5'>
 
                             <button
                                 onClick={() => handleAddActivity(expectedFriend, "call")}
