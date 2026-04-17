@@ -30,7 +30,7 @@ const FriendsDetails = () => {
 
     return (
         <div>
-            <div className='w-full lg:w-[1400px] my-20 mx-auto flex justify-between gap-10'>
+            <div className='w-full lg:w-[1400px]  my-20 mx-auto flex justify-between gap-10'>
 
                
                 <div className='w-full lg:w-[500px] text-center space-y-10'>

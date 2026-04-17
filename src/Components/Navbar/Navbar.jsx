@@ -6,9 +6,9 @@ import { FaChartLine, FaClock, FaHome } from 'react-icons/fa';
 
 const Navbar = () => {
     return (
-        <div>
+        <div className='sticky top-0 z-50 bg-white/70 backdrop-blur-md shadow-md'>
 
-            <nav className='bg-base-200 shadow-sm'>
+            <nav className=''>
                 <div className="navbar  w-[100%] lg:w-[1400px] m-auto flex justify-between ">
 
                 <div className="navbar-start">

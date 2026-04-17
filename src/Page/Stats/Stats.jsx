@@ -30,10 +30,10 @@ const Stats = () => {
     );
 
     return (
-        <div className='w-[100%] lg:w-[1400px] mx-auto my-20 space-y-10'>
+        <div className='w-[100%] lg:w-[1400px] mx-auto my-5 lg:my-20 space-y-10 overflow-hidden p-3 '>
             
             <div>
-                <h1 className='text-4xl font-bold'>
+                <h1 className='text-2xl lg:text-4xl  font-bold '>
                     Friendship Analytics
                 </h1>
             </div>

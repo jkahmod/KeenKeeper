@@ -11,7 +11,7 @@ const AllFriends = () => {
 
     return (
         <div>
-            <div className='grid grid-cols-4 gap-5 m-auto w-[1400px] ' >
+            <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-5 m-auto w-[100%] lg:w-[1400px] p-3' >
                 <div className=' shadow-sm rounded text-center p-5 bg-base-200'>
                     <p className='text-2xl font-bold text-[#244D3F]'>{friends.length}</p>
                     <h4 className='text-xl'>Total Friends</h4>
@@ -36,13 +36,13 @@ const AllFriends = () => {
 
             
 
-            <div className=' w-[100%] lg:w-[1400px] my-20 m-auto space-y-10'>
+            <div className=' w-[100%] lg:w-[1400px] my-20 m-auto space-y-10 '>
 
             <hr className='border border-base-300 my-5' />
 
-            <h1 className='text-2xl font-semibold' >Your  friends </h1>
+            <h1 className='text-2xl font-semibold p-3' >Your  friends </h1>
 
-            <div className='grid grid-cols-4 gap-10 '>
+            <div className='grid lg:grid-cols-4 md:grid-cols-3 gap-5 m-auto w-[100%] lg:w-[1400px] p-3 '>
                 
                 {
                 friends.map(friend => (
