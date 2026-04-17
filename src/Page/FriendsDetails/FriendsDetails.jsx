@@ -22,6 +22,7 @@ const FriendsDetails = () => {
         tags,
         status,
         bio,
+        email,
         days_since_contact,
         next_due_date,
         goal
@@ -64,6 +65,7 @@ const FriendsDetails = () => {
                         </div>
 
                         <p className='text-sm italic'>"{bio}"</p>
+                        <p>Preferred: {email}</p>
                     </div>
 
                     
